@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Codificando e Decodificando textos</title>
+</head>
+<body>
+
+    <header>
+        <img src="/images/logo.svg" alt="logo" width="120" height="48">
+    </header>
+
+    <main class="conteudo">
+        <section class="sectexto">
+            <textarea class="tex-texto texto" cols="50" rows="30" placeholder="Digite seu texto"></textarea>
+
+            <div class="information">
+                <ul class="msg-erro"></ul>
+            </div>
+
+            <div class="buttons">
+                <button type="btn" class="codificar">Codificar</button>
+                <button type="btn" class="decodificar">Decodificar</button>
+            </div>
+        </section>
+
+        <section class="container">
+
+            <textarea class="result" cols="30" rows="10" placeholder=" " readonly></textarea>
+
+            <div class="style-copiar">
+                <button type="btn" class="invisivel copiar">Copiar</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/index.js" defer></script>
+</body>
+</html>
